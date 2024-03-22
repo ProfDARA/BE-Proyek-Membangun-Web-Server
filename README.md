@@ -62,7 +62,7 @@ server {
         #}
 }
 
-
+{
 # Virtual Host configuration for example.com
 #
 # You can move that to a different file under sites-available/ and symlink that
@@ -80,4 +80,5 @@ server {
 #       location / {
 #               try_files $uri $uri/ =404;
 #       }
-#}
+#
+}
